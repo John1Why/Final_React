@@ -1,0 +1,49 @@
+body {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+div#main {
+	display: flex;
+	margin: 20px;
+}
+
+div#product {
+	margin-left: 40px;
+}
+
+
+a.active {
+	font-weight: bold;
+	color: brown;
+}
+
+a.loading {
+	color: gray;
+}
+
+div.loading {
+	opacity: 0.3;
+}
+
+div#control {
+	display: flex;
+}
+
+button {
+	margin-right: 5px;
+}
